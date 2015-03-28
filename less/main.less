@@ -1,0 +1,376 @@
+/*
+Theme Name: Grzegorz Falandysz
+*/
+
+/* colors */
+@red: #ee1d23;
+@yellow: #fcb912;
+@green: #a5cd38;
+
+@header-height: 70px;
+@menu-height: 40px;
+@menu-border: 1px solid #ccc;
+
+@content-height: 500px;
+
+@sidebar-left-background: #fff;
+@zawartosc-background: #fff;
+@promocje-background: #eee;
+@sidebar-right-background: #fff;
+
+@footer-color: #fff;
+@footer-height: 50px;
+@footer-background: @green; 
+
+.margin-bottom-20 {
+	
+    margin-bottom: 20px;
+}
+
+body {
+	font-family: "Oswald", Helvetica, Arial, sans-serif !important;
+}
+
+#header {
+	background: #fff;
+	// height: @header-height;
+}
+
+/* navbar */
+.navbar {
+	border-radius: 0px !important;
+}
+
+.navbar-default {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    //border-bottom: solid black 5px;
+    // box-shadow: inset 0px 1px 0px @footer-background;
+    box-shadow: inset 0px 1px 0px #ccc, inset 0px -1px 0px #ccc;
+
+}
+
+.navbar-nav {
+	li {
+		height: 50px;
+		padding: 0px;
+		margin-bottom: 0px !important;
+		&:hover {
+			border-bottom: solid 2px @yellow;
+			a {
+				color: @green !important;
+ 				background-color: transparent !important;
+ 				border: none !important;
+			}
+		}
+		&.active {
+			border-bottom: solid 2px @yellow;
+			a {
+				color: @green !important;
+ 				background-color: transparent !important;
+ 				border: none !important;
+			}
+		}
+		a {
+			text-transform: uppercase !important;
+		}
+	}
+}
+
+.menu {
+	a {
+	text-decoration: none !important;
+	color: @green;
+	&:hover {
+		color: @yellow;
+	}
+}
+
+}
+
+fieldset a {
+	color: @yellow !important;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+.active {
+	a {	
+		color: @green !important;
+		background-color: #fff !important;
+		border-bottom: solid 2px @yellow !important;
+	}
+}
+
+.carousel {
+	margin-top: -8px !important;
+}
+
+#menu-menu-glowne {
+	// .nav;
+	// .navbar-nav;
+	// .abc;
+}
+
+.menu-menu-glowne-container {
+	// .collapse;
+	// .navbar-collapse;
+}
+
+// .hours {
+// 	height: @header-height;
+// 	display:table-cell;
+// 	vertical-align: middle;
+// 	width: 1%;
+// 	text-align: right;
+// }
+
+// #menu {
+// 	min-height: @menu-height;
+// 	border-top: @menu-border;
+// 	border-bottom: @menu-border;
+	
+// 	font: 14px/18px "Andale Mono",Helvetica,Arial,Verdana,sans-serif;
+// 	color: #0A0000;
+// 	text-transform: uppercase;
+
+// 	ul {
+// 		height: @menu-height;
+// 		display:table-cell;
+// 		vertical-align: middle;
+// 		padding: 0px;
+// 		li {
+// 			&:fist-child {
+// 				padding-left: 0px;
+// 			}
+// 			display: inline-block;
+// 			padding: 10px;
+// 			a {
+// 				color: #0A0000;
+// 				&:hover {
+// 					text-decoration: none;
+// 					color: red;
+// 				}
+// 			}
+// 		}
+
+// 	}
+
+// 	#lang {
+// 		padding: 10px 0;
+// 		a {
+// 			color: #000;
+// 			&:hover {
+// 				text-decoration: none;
+// 				color: red;
+// 			}
+// 		}
+// 	}
+
+// 	#szukaj {
+// 		padding: 5px 0;
+// 	}
+	
+// }
+
+// .menu-item {
+// 	list-style: none;
+
+// 	a:hover {
+// 		text-decoration: none;
+// 	}
+// }
+
+.panel-title {
+
+	a { 
+		color: #fff !important;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	
+}
+
+.panel-default > .panel-heading {
+	background: #f0f;
+}
+
+#sidebar-left {
+	background: @sidebar-left-background;
+	// height: @content-height;
+}
+
+#zawartosc {
+	background: @zawartosc-background;
+	min-height: @content-height;
+}
+
+#promocje {
+	background: @promocje-background;
+	// height: @content-height;
+}
+.promocje_thumbnail {
+ //margin-left: 160px;
+ }
+.sklepy {
+	width: 100%;
+}
+.sklepy_thumbnail {
+    margin: 20px;
+}
+#sidebar-right {
+	background: @sidebar-right-background;
+	min-height: @content-height;
+}
+
+.bx-viewport {
+	height: 450px !important;
+}
+
+#footer{
+    color: @footer-color;
+		background: @footer-background;
+		// height: @footer-height;
+}
+
+
+
+// plan
+    @font-face { font-family:"Open Sans Condensed Light";src:url("#FontID3") format(svg)}
+    @font-face { font-family:"Open Sans Condensed";src:url("#FontID2") format(svg)}
+    @font-face { font-family:"Open Sans Light";src:url("#FontID1") format(svg)}
+    @font-face { font-family:"Arial Narrow";src:url("#FontID0") format(svg)}
+    .str0 {stroke:black;stroke-width:21.6;stroke-linecap:round;stroke-linejoin:round}
+    .str1 {stroke:#E8E8E8;stroke-width:21.6;stroke-linecap:round;stroke-linejoin:round}
+    .str2 {stroke:black;stroke-width:25;stroke-linecap:round;stroke-linejoin:round}
+    .fil3 {fill:none}
+    .fil1 {fill:none;fill-rule:nonzero}
+    .fil7 {fill:black}
+    .fil6 {fill:lime}
+    .fil5 {fill:aqua}
+    .fil2 {fill:red}
+    .fil4 {fill:#FFFF80}
+    .fil0 {fill:white}
+    .fnt0 {font-weight:normal;font-size:141.11;font-family:'Arial Narrow'}
+    .fnt14 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt17 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt20 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt35 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt58 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt75 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt82 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt85 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt88 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt91 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt94 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt97 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt100 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt103 {font-weight:300;font-size:141.18;font-family:'Open Sans Condensed Light'}
+    .fnt11 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt13 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt16 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt19 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt22 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt24 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt26 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt28 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt30 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt32 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt3 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt34 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt37 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt39 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt41 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt43 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt45 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt47 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt49 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt51 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt53 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt5 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt55 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt57 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt60 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt62 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt64 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt66 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt68 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt70 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt72 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt74 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt7 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt77 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt79 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt81 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt84 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt87 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt90 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt93 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt96 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt99 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt102 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt9 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt105 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt107 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt109 {font-weight:300;font-size:211.77;font-family:'Open Sans Condensed Light'}
+    .fnt10 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt12 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt15 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt18 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt21 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt2 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt23 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt25 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt27 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt29 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt31 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt33 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt36 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt38 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt40 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt42 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt4 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt44 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt46 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt48 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt50 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt52 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt54 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt56 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt59 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt61 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt63 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt6 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt65 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt67 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt69 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt71 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt73 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt76 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt78 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt80 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt83 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt86 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt8 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt89 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt92 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt95 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt98 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt101 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt104 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt106 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt108 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt110 {font-weight:bold;font-size:211.77;font-family:'Open Sans Condensed'}
+    .fnt1 {font-weight:300;font-size:423.53;font-family:'Open Sans Light'}
+   

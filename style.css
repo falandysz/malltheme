@@ -1,3 +1,28 @@
 /*
 Theme Name: Mall
 */
+
+@import url("css/main.css");
+@import url("social-buttons.css");
+@import url("font-awesome.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css");
+
+@media (max-width: 520px) {
+  .col-xxs-12 {
+    width: 100%;
+  }
+
+  .xxs-text-center {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 521px) and ( max-width: 680px ) {
+  #header button.btn-facebook {
+    font-size: 12px !important;
+  }
+}
+
+#sidebar-right {
+  min-height: 600px;
+}
